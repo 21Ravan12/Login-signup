@@ -1,0 +1,130 @@
+/* General style settings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #2c2c2c; /* Dark gray background */
+  color: #e0e0e0; /* Light gray text color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 16px;
+  padding: 20px; /* Added padding for better spacing */
+  margin: 0; /* Ensure no extra margin on body */
+}
+
+h2 {
+  text-align: center;
+  color: #fff; /* White header */
+  margin-bottom: 20px; /* Space below the header */
+}
+
+/* Login and Signup page styles */
+.login-container, .signup-container {
+  background-color: #333; /* Dark gray background */
+  padding: 20px 20px; 
+  padding-top: 30px;/* Padding on all sides */
+  padding-bottom: 10px;
+  border-radius: 10px; /* Slightly more rounded corners */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* More prominent shadow */
+  width: 100%;
+  max-width: 380px; 
+  min-width: 300px;/* Limit the width */
+  margin: auto;
+}
+
+/* Form styling */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form div {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  color: #bbb; /* Light gray text */
+}
+
+input {
+  padding: 14px;
+  border: 1px solid #555; /* Dark gray border */
+  border-radius: 5px;
+  font-size: 14px;
+  width: 100%;
+  background-color: #444; /* Dark gray input background */
+  color: #fff; /* White text */
+  transition: border-color 0.3s ease-in-out;
+}
+
+input:focus {
+  border-color: #009688; /* Greenish-blue focus border */
+  outline: none;
+}
+
+button {
+  background-color: #009688; /* Turquoise button */
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%; /* Full width for the button */
+}
+
+button:hover {
+  background-color: #00796b; /* Darker turquoise on hover */
+}
+
+/* Error message styles */
+.error {
+  color: red;
+  font-size: 0.9rem; /* Slightly smaller error text */
+  margin-top: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 480px) {
+  body {
+      font-size: 14px; /* Slightly smaller font size for mobile */
+  }
+
+  .login-container, .signup-container {
+      padding: 20px; /* Less padding for mobile */
+      max-width: 90%; /* Allow form to take up more space on small screens */
+  }
+
+  button {
+      font-size: 14px; /* Smaller button font size on mobile */
+      padding: 10px; /* Smaller padding for buttons */
+  }
+}
+
+p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+p button {
+  background-color: transparent;
+  color: #009688; /* Turquoise button color */
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: text-decoration 0.3s ease;
+}
+
+p button:hover {
+  text-decoration: underline;
+}
