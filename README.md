@@ -46,16 +46,13 @@ Project Structure
 e-commerce/  
 ├── e-commerce client/  # Frontend application  
 │   ├── public/         # Public assets  
-│   ├── src/            # React source code  
-│   │   ├── components/ # Reusable components (e.g., Header, Footer)  
+│   ├── src/            # React source code
+│   │   ├── components/ # Reusable components (e.g., Header, Footer)   ;) 
 │   │   ├── pages/      # Application pages (e.g., HomePage, LoginPage)  
 │   │   ├── redux/      # State management files  
 │   │   ├── styles/     # CSS files for styling  
 │   │   └── index.js    # React entry point  
-├── API/                # Backend Express API  
-│   ├── index.js        # Entry point for the API server  
-│   ├── routes/         # API route handlers  
-│   └── ...other files for API logic  
+├── Api                # Backend Express API  
 ├── package.json        # Defines project dependencies  
 └── README.md           # Documentation
 
