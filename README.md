@@ -56,66 +56,6 @@ e-commerce/
 ├── package.json        # Defines project dependencies  
 └── README.md           # Documentation
 
-Installation
-
-Prerequisites
-
-Ensure you have the following installed:
-
-Node.js: v16+
-
-MySQL: Database setup with required schema.
-
-
-Steps
-
-1. Clone the Repository
-
-git clone <repository-url>  
-cd e-commerce
-
-
-2. Backend Setup
-
-Navigate to the API/ directory:
-
-cd API
-
-Install dependencies:
-
-npm install
-
-Configure environment variables in .env file (use .env.example as a reference).
-
-Start the backend server:
-
-npm start
-
-
-
-3. Frontend Setup
-
-Navigate to the e-commerce client/ directory:
-
-cd e-commerce client
-
-Install dependencies:
-
-npm install
-
-Start the React development server:
-
-npm start
-
-
-
-
-Usage
-
-Frontend: Access the application at http://localhost:3000.
-
-Backend: Runs at http://localhost:5000 (or as configured in .env).
-
 
 Notes
 
