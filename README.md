@@ -1,6 +1,3 @@
-This is an old project and does not describe my products.
-----
-
 # E-Commerce Project
 
 This is a full-stack e-commerce application named E-Commerce Client, built with React for the frontend and Node.js (Express) for the backend. It provides features like user authentication, product management, and more.
